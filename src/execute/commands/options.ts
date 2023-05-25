@@ -85,6 +85,12 @@ export const options: { [key in models]: { [key: string]: unknown } } = {
     _networkTypeSupport: ['AP', 'CL'],
     _powerSaving: 'ON',
     _powerSavingSupport: ['ON', 'OFF'],
+    _proxy: {
+      use: true,
+      url: '192.168.1.250',
+      port: 8080,
+      userid: 'example_user',
+    },
     _shootingMethod: 'normal',
     _shootingMethodSupport: [
       'normal',
@@ -262,16 +268,6 @@ export const options: { [key in models]: { [key: string]: unknown } } = {
     previewFormatSupport: [
       {
         framerate: 30,
-        height: 2880,
-        width: 5760,
-      },
-      {
-        framerate: 30,
-        height: 1920,
-        width: 3840,
-      },
-      {
-        framerate: 30,
         height: 512,
         width: 1024,
       },
@@ -415,6 +411,12 @@ export const options: { [key in models]: { [key: string]: unknown } } = {
     _microphoneSupport: ['AUTO', 'Internal'],
     _networkType: 'AP',
     _networkTypeSupport: ['AP', 'CL'],
+    _proxy: {
+      port: 8080,
+      url: '192.168.1.250',
+      use: true,
+      userid: 'example_user',
+    },
     _shootingMethodSupport: [],
     _shutterVolume: 100,
     _shutterVolumeSupport: {

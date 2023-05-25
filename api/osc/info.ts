@@ -19,7 +19,7 @@ const response = {
       httpPort: 80,
       httpUpdatesPort: 80,
     },
-    firmwareVersion: '1.41.0',
+    firmwareVersion: '2.00.0',
     gps: false,
     gyro: false,
     manufacturer: 'Ricoh Company, Ltd.',

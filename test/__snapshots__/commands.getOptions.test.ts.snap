@@ -136,6 +136,12 @@ exports[`POST /osc/commands/execute getOptions should respond with results 1`] =
         "ON",
         "OFF",
       ],
+      "_proxy": {
+        "port": 8080,
+        "url": "192.168.1.250",
+        "use": true,
+        "userid": "example_user",
+      },
       "_shootingMethod": "normal",
       "_shootingMethodSupport": [
         "normal",
@@ -388,16 +394,6 @@ exports[`POST /osc/commands/execute getOptions should respond with results 1`] =
         "width": 1024,
       },
       "previewFormatSupport": [
-        {
-          "framerate": 30,
-          "height": 2880,
-          "width": 5760,
-        },
-        {
-          "framerate": 30,
-          "height": 1920,
-          "width": 3840,
-        },
         {
           "framerate": 30,
           "height": 512,
@@ -647,6 +643,12 @@ exports[`THETA X POST /osc/commands/execute getOptions should respond with resul
         "ON",
         "OFF",
       ],
+      "_proxy": {
+        "port": 8080,
+        "url": "192.168.1.250",
+        "use": true,
+        "userid": "example_user",
+      },
       "_shootingMethod": "normal",
       "_shootingMethodSupport": [
         "normal",
@@ -899,16 +901,6 @@ exports[`THETA X POST /osc/commands/execute getOptions should respond with resul
         "width": 1024,
       },
       "previewFormatSupport": [
-        {
-          "framerate": 30,
-          "height": 2880,
-          "width": 5760,
-        },
-        {
-          "framerate": 30,
-          "height": 1920,
-          "width": 3840,
-        },
         {
           "framerate": 30,
           "height": 512,
@@ -1167,6 +1159,12 @@ exports[`THETA Z1 POST /osc/commands/execute getOptions should respond with resu
         "AP",
         "CL",
       ],
+      "_proxy": {
+        "port": 8080,
+        "url": "192.168.1.250",
+        "use": true,
+        "userid": "example_user",
+      },
       "_shootingMethodSupport": [],
       "_shutterVolume": 100,
       "_shutterVolumeSupport": {

@@ -33,6 +33,7 @@ describe('POST /osc/commands/execute getOptions', () => {
             '_microphoneChannel',
             '_networkType',
             '_powerSaving',
+            '_proxy',
             '_shootingMethod',
             '_shutterVolume',
             '_timeShift',
@@ -166,6 +167,7 @@ describe('THETA X POST /osc/commands/execute getOptions', () => {
             '_microphoneChannel',
             '_networkType',
             '_powerSaving',
+            '_proxy',
             '_shootingMethod',
             '_shutterVolume',
             '_timeShift',
@@ -301,6 +303,7 @@ describe('THETA Z1 POST /osc/commands/execute getOptions', () => {
             '_microphone',
             '_microphoneChannel',
             '_networkType',
+            '_proxy',
             //'_shootingMethod', // Only available in my setting mode.
             '_shutterVolume',
             '_timeShift',

@@ -23,6 +23,12 @@ exports[`POST /osc/commands/execute _listAccessPoints should respond with result
         "subnetMask": "24",
       },
       {
+        "_proxy": {
+          "port": 8080,
+          "url": "192.168.1.250",
+          "use": true,
+          "userid": "example_user",
+        },
         "connectionPriority": 1,
         "defaultGateway": "192.168.1.1",
         "ipAddress": "192.168.1.253",
@@ -61,6 +67,12 @@ exports[`THETA X POST /osc/commands/execute _listAccessPoints should respond wit
         "subnetMask": "24",
       },
       {
+        "_proxy": {
+          "port": 8080,
+          "url": "192.168.1.250",
+          "use": true,
+          "userid": "example_user",
+        },
         "connectionPriority": 1,
         "defaultGateway": "192.168.1.1",
         "ipAddress": "192.168.1.253",
@@ -82,6 +94,12 @@ exports[`THETA Z1 POST /osc/commands/execute _listAccessPoints should respond wi
   "results": {
     "accessPoints": [
       {
+        "_proxy": {
+          "port": 8080,
+          "url": "192.168.1.250",
+          "use": true,
+          "userid": "example_user",
+        },
         "connectionPriority": 1,
         "defaultGateway": "192.168.1.1",
         "ipAddress": "192.168.1.254",
