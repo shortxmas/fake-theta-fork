@@ -1,0 +1,26 @@
+name: test on deploy
+on: deployment_status
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check deployment state
+        run: test ${{ github.event.deployment_status.state }} == "success"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: get url
+        run: |
+          TARGET_URL=$( echo ${{ github.event.deployment_status.target_url }} | sed "s/.*:\/\/\(.*\)/\1/g" )
+          ALIAS_URL=$( curl -X GET "https://api.vercel.com/v13/deployments/$TARGET_URL" -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" | jq -r "select(.alias[0] != null) .alias[0]" )
+          if [[ $ALIAS_URL != "" ]]; then
+            echo "ALIAS_URL=$ALIAS_URL" >> $GITHUB_ENV
+          else
+            echo "::error ::Missing alias for deployment URL."
+            exit 1
+          fi
+      - name: yarn install
+        run: yarn install
+      - name: run test
+        run: TEST_HOST="https://$ALIAS_URL" yarn test
