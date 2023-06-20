@@ -1,78 +1,195 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`POST /osc/commands/execute listFiles should respond with results 1`] = `
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 1`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
+  "_favorite": false,
+  "dateTime": "2015:07:20 11:05:18",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`POST /osc/commands/execute listFiles should respond with results 2`] = `
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 2`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
+  "_favorite": false,
+  "dateTime": "2015:07:19 11:05:18",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`POST /osc/commands/execute listFiles should respond with results 3`] = `
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 3`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
+  "_favorite": false,
+  "dateTime": "2015:07:18 11:05:18",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`POST /osc/commands/execute listFiles should respond with results 4`] = `
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: true 1`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:20 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 11008,
 }
 `;
 
-exports[`POST /osc/commands/execute listFiles should respond with results 5`] = `
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: true 2`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:19 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 11008,
 }
 `;
 
-exports[`POST /osc/commands/execute listFiles should respond with results 6`] = `
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: true 3`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:18 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 11008,
 }
 `;
 
-exports[`POST /osc/commands/execute listFiles should respond with results 7`] = `
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 1`] = `
+{
+  "_favorite": false,
+  "dateTime": "2015:07:20 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 2`] = `
+{
+  "_favorite": false,
+  "dateTime": "2015:07:19 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 3`] = `
+{
+  "_favorite": false,
+  "dateTime": "2015:07:18 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail :true 1`] = `
+{
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:20 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 11008,
+}
+`;
+
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail :true 2`] = `
+{
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:19 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 11008,
+}
+`;
+
+exports[`POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail :true 3`] = `
+{
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:18 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 11008,
+}
+`;
+
+exports[`POST /osc/commands/execute listFiles with fileType: video, entryCount: 3, maxThumbSize: 640 1`] = `
 {
   "name": "camera.listFiles",
   "results": {
@@ -83,79 +200,196 @@ exports[`POST /osc/commands/execute listFiles should respond with results 7`] = 
 }
 `;
 
-exports[`THETA X POST /osc/commands/execute listFiles should respond with results 1`] = `
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 1`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "dateTime": "2015:07:20 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`THETA X POST /osc/commands/execute listFiles should respond with results 2`] = `
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 2`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "dateTime": "2015:07:19 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`THETA X POST /osc/commands/execute listFiles should respond with results 3`] = `
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 3`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "dateTime": "2015:07:18 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`THETA X POST /osc/commands/execute listFiles should respond with results 4`] = `
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: true 1`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:20 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 11008,
 }
 `;
 
-exports[`THETA X POST /osc/commands/execute listFiles should respond with results 5`] = `
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: true 2`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:19 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 11008,
 }
 `;
 
-exports[`THETA X POST /osc/commands/execute listFiles should respond with results 6`] = `
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: true 3`] = `
 {
-  "_favorite": Any<Boolean>,
-  "dateTime": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}/,
-  "fileUrl": Any<String>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:18 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 11008,
 }
 `;
 
-exports[`THETA X POST /osc/commands/execute listFiles should respond with results 7`] = `
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 1`] = `
+{
+  "_favorite": false,
+  "dateTime": "2015:07:20 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 2`] = `
+{
+  "_favorite": false,
+  "dateTime": "2015:07:19 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 3`] = `
+{
+  "_favorite": false,
+  "dateTime": "2015:07:18 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail :true 1`] = `
+{
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:20 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 11008,
+}
+`;
+
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail :true 2`] = `
+{
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:19 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 11008,
+}
+`;
+
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail :true 3`] = `
+{
+  "_favorite": false,
+  "_imageDescription": "",
+  "_projectionType": "Equirectangular",
+  "_storageID": "90014a68423861503e030277e0c2b500",
+  "_thumbSize": 3052,
+  "_uploaded": false,
+  "dateTimeZone": "2015:07:18 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 5504,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 11008,
+}
+`;
+
+exports[`THETA X POST /osc/commands/execute listFiles with fileType: video, entryCount: 3, maxThumbSize: 640 1`] = `
 {
   "name": "camera.listFiles",
   "results": {
@@ -166,100 +400,166 @@ exports[`THETA X POST /osc/commands/execute listFiles should respond with result
 }
 `;
 
-exports[`THETA Z1 POST /osc/commands/execute listFiles should respond with results 1`] = `
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 1`] = `
 {
-  "_projectionType": StringMatching /\\^\\(Equirectangular\\|Dual-Fisheye\\)/,
-  "_thumbSize": Any<Number>,
-  "dateTimeZone": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}\\[\\+-\\]\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "_projectionType": "Equirectangular",
+  "_thumbSize": 3052,
+  "dateTimeZone": "2015:07:20 11:05:18+09:00",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "height": Any<Number>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
-  "thumbnail": Any<String>,
-  "width": Any<Number>,
+  "height": 3360,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 6720,
 }
 `;
 
-exports[`THETA Z1 POST /osc/commands/execute listFiles should respond with results 2`] = `
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 2`] = `
 {
-  "_projectionType": StringMatching /\\^\\(Equirectangular\\|Dual-Fisheye\\)/,
-  "_thumbSize": Any<Number>,
-  "dateTimeZone": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}\\[\\+-\\]\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "_projectionType": "Equirectangular",
+  "_thumbSize": 3052,
+  "dateTimeZone": "2015:07:19 11:05:18+09:00",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "height": Any<Number>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
-  "thumbnail": Any<String>,
-  "width": Any<Number>,
+  "height": 3360,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 6720,
 }
 `;
 
-exports[`THETA Z1 POST /osc/commands/execute listFiles should respond with results 3`] = `
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0 3`] = `
 {
-  "_projectionType": StringMatching /\\^\\(Equirectangular\\|Dual-Fisheye\\)/,
-  "_thumbSize": Any<Number>,
-  "dateTimeZone": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}\\[\\+-\\]\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "_projectionType": "Equirectangular",
+  "_thumbSize": 3052,
+  "dateTimeZone": "2015:07:18 11:05:18+09:00",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "height": Any<Number>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
-  "thumbnail": Any<String>,
-  "width": Any<Number>,
+  "height": 3360,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "width": 6720,
 }
 `;
 
-exports[`THETA Z1 POST /osc/commands/execute listFiles should respond with results 4`] = `
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: false 1`] = `
 {
-  "_projectionType": StringMatching /\\^\\(Equirectangular\\|Dual-Fisheye\\)/,
-  "_thumbSize": Any<Number>,
-  "dateTimeZone": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}\\[\\+-\\]\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "dateTime": "2015:07:20 11:05:18",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "height": Any<Number>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
-  "width": Any<Number>,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`THETA Z1 POST /osc/commands/execute listFiles should respond with results 5`] = `
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: false 2`] = `
 {
-  "_projectionType": StringMatching /\\^\\(Equirectangular\\|Dual-Fisheye\\)/,
-  "_thumbSize": Any<Number>,
-  "dateTimeZone": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}\\[\\+-\\]\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "dateTime": "2015:07:19 11:05:18",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "height": Any<Number>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
-  "width": Any<Number>,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`THETA Z1 POST /osc/commands/execute listFiles should respond with results 6`] = `
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 0, _detail: false 3`] = `
 {
-  "_projectionType": StringMatching /\\^\\(Equirectangular\\|Dual-Fisheye\\)/,
-  "_thumbSize": Any<Number>,
-  "dateTimeZone": StringMatching /\\^\\[0-9\\]\\{4\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\} \\[0-9\\]\\{2\\}\\(:\\[0-9\\]\\{2\\}\\)\\{2\\}\\[\\+-\\]\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "dateTime": "2015:07:18 11:05:18",
   "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
-  "height": Any<Number>,
-  "isProcessed": Any<Boolean>,
-  "name": Any<String>,
-  "previewUrl": Any<String>,
-  "size": Any<Number>,
-  "width": Any<Number>,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
 }
 `;
 
-exports[`THETA Z1 POST /osc/commands/execute listFiles should respond with results 7`] = `
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 1`] = `
+{
+  "_projectionType": "Equirectangular",
+  "_thumbSize": 3052,
+  "dateTimeZone": "2015:07:20 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 3360,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 6720,
+}
+`;
+
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 2`] = `
+{
+  "_projectionType": "Equirectangular",
+  "_thumbSize": 3052,
+  "dateTimeZone": "2015:07:19 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 3360,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 6720,
+}
+`;
+
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640 3`] = `
+{
+  "_projectionType": "Equirectangular",
+  "_thumbSize": 3052,
+  "dateTimeZone": "2015:07:18 11:05:18+09:00",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "height": 3360,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+  "thumbnail": "(base64_binary)",
+  "width": 6720,
+}
+`;
+
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail: false 1`] = `
+{
+  "dateTime": "2015:07:20 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010010.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail: false 2`] = `
+{
+  "dateTime": "2015:07:19 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010009.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: image, entryCount: 3, maxThumbSize: 640, _detail: false 3`] = `
+{
+  "dateTime": "2015:07:18 11:05:18",
+  "fileUrl": StringMatching /\\^\\(http\\|https\\):\\\\/\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\/\\.\\+\\\\\\.JPG/,
+  "isProcessed": true,
+  "name": "R0010008.JPG",
+  "previewUrl": "",
+  "size": 4051440,
+}
+`;
+
+exports[`THETA Z1 POST /osc/commands/execute listFiles with fileType: video, entryCount: 3, maxThumbSize: 640 1`] = `
 {
   "name": "camera.listFiles",
   "results": {

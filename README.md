@@ -59,12 +59,12 @@ Fake THETA is implemented as vercel serverless functions deployed on "fake-theta
 You can get the fake responses of RICOH THETA web APIs by setting https://fake-theta.vercel.app
 as an endpoint.
 
-***Note: "fake-theta.vercel.app" is an endpoint deployed from the master branch of this repository, so its behavior may change when the master branch is updated.***
+**_Note: "fake-theta.vercel.app" is an endpoint deployed from the master branch of this repository, so its behavior may change when the master branch is updated._**
 
 In order to specify the model, you can add a header parameter `emulating-theta-model` when sending a Request. If nothing is specified, Fake THETA behaves as THETA X.
 
-Fake THETA only supports required parameters for each command execution. For example, for the [listFiles](https://github.com/ricohapi/theta-api-specs/blob/main/theta-web-api-v2.1/commands/camera.list_files.md) command, Fake THETA only reads the values of `fileType`, `entryCount`, and `maxThumbSize`.
-Non-required parameters are ignored in the current implementation (treated as if they were never entered).
+Fake THETA only supports required parameters for each command execution basically.
+Non-required parameters, except for `_detail` of `camera.listFiles` command, are ignored in the current implementation (treated as if they were never entered). You can check if each parameter is a required parameter or not in the API Specifications.
 
 ### Examples
 
