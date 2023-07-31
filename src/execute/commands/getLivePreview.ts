@@ -11,5 +11,17 @@ export async function getLivePreview(
     '../../../static/sample-preview.jpg',
   );
   const picture = await fs.readFile(filePath);
-  res.status(200).setHeader('Content-Type', 'image/jpeg').send(picture);
+  res
+    .status(200)
+    .setHeader(
+      'Content-Type',
+      'multipart/x-mixed-replace; boundary="---osclivepreview---"',
+    );
+  res.write('---osclivepreview---\r\n');
+  res.write('Content-type: image/jpeg\r\n');
+  res.write('Content-Length: 23660\r\n');
+  res.write('\r\n');
+  res.write(picture);
+  res.write('\r\n\r\n');
+  res.end('---osclivepreview---\r\n');
 }

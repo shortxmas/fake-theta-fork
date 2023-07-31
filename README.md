@@ -13,7 +13,7 @@ Fake THETA supports the following models of THETA:
 Fake THETA provides fake responses (fixed values) for the following Web APIs.
 See [THETA API Specifications](https://github.com/ricohapi/theta-api-specs) for details of each API.
 
-Please note that Fake THETA returns a JPEG file with `content-type:image/jpeg` while the actual THETA device returns MotionJPEG frames with `content-type:multipart/x-mixed-replace` when calling `camera.getLivePreview` API.
+Please note that Fake THETA returns a single JPEG frame while the actual THETA device returns stream of MotionJPEG frames with `Transfer-Encoding: chunked` header when calling `camera.getLivePreview` API.
 
 ### Protocols
 

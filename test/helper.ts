@@ -1,6 +1,6 @@
 import supertest from 'supertest';
 
-const { TEST_HOST = 'http://localhost:3000' } = process.env;
+export const { TEST_HOST = 'http://localhost:3000' } = process.env;
 
 export function request(): ReturnType<typeof supertest> {
   return supertest(TEST_HOST);
