@@ -61,6 +61,14 @@ exports[`POST /osc/commands/execute getOptions should respond with results 1`] =
         "minTemperature": 2500,
         "stepSize": 100,
       },
+      "_ethernetConfig": {
+        "_proxy": {
+          "port": 0,
+          "url": "",
+          "use": false,
+        },
+        "ipAddressAllocation": "dynamic",
+      },
       "_faceDetect": "OFF",
       "_faceDetectSupport": [
         "ON",
@@ -567,6 +575,14 @@ exports[`THETA X POST /osc/commands/execute getOptions should respond with resul
         "maxTemperature": 10000,
         "minTemperature": 2500,
         "stepSize": 100,
+      },
+      "_ethernetConfig": {
+        "_proxy": {
+          "port": 0,
+          "url": "",
+          "use": false,
+        },
+        "ipAddressAllocation": "dynamic",
       },
       "_faceDetect": "OFF",
       "_faceDetectSupport": [

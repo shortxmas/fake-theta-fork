@@ -9,7 +9,7 @@ import { getModel } from './models';
 import { options } from './options';
 
 const response = {
-  x: (name: string, options: { [optionName: string]: unknown }) => {
+  x: (name: string, options: Record<string, unknown>) => {
     return {
       results: {
         options,
@@ -18,7 +18,7 @@ const response = {
       state: 'done',
     };
   },
-  z1: (name: string, options: { [optionName: string]: unknown }) => {
+  z1: (name: string, options: Record<string, unknown>) => {
     return {
       name,
       results: {
@@ -42,7 +42,7 @@ export function getOptions(req: VercelRequest, res: VercelResponse): void {
     return;
   }
 
-  const output: { [optionName: string]: unknown } = {};
+  const output: Record<string, unknown> = {};
   const modelOptions = options[model];
   for (const optionName of optionNames) {
     if (optionName in modelOptions) {
