@@ -12,5 +12,6 @@ jobs:
         run: yarn install
       - name: run lint and type-check
         run: |
+          yarn format:check
           yarn lint
           yarn type-check

@@ -6,7 +6,8 @@
   "scripts": {
     "deploy": "vercel",
     "deploy:prod": "vercel --prod",
-    "format": "prettier --write --loglevel silent \"**/*.{json,md}\"",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint --ext .ts --fix .",
     "prepare": "husky install",
