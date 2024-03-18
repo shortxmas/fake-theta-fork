@@ -1,3 +1,10 @@
+# Fake THETA Fork
+
+This is a fork of the original repository https://github.com/ricohapi/fake-theta.
+
+This repository changes the listFiles url in ./src/execute/commands/listFiles.ts to https://codetricity.github.io/fake-storage/ allowing the fetching of custom added pictures to be used in theta client.
+
+
 # Fake THETA
 
 Fake THETA is a [RICOH THETA Web APIs](https://github.com/ricohapi/theta-api-specs) simulator.
